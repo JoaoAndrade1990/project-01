@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   body {
@@ -8,4 +10,19 @@
 
 h1 {
     color:antiquewhite;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    
+
+
+}
+
+nav {
+    color:antiquewhite; 
+    background-color:black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
