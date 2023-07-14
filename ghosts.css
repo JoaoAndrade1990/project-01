@@ -38,8 +38,61 @@ li{
 }
 
 .ghost-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.ghost-articles div{
+  margin: 20px;
+  background-color: #313131;
+}
+
+.ghost-articles-body{
   display: flex;
   flex-direction: column;
-  padding-left: 10px
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #313131;
+}
 
+.ghost-1 {
+  border: 1px solid rgb(105, 95, 220);
+  border-radius: 10px;
+  background-color: #313131;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px
+}
+
+.ghost-1 p {
+  font-size: 18px;
+}
+
+.ghost-2 {
+  border: 1px solid rgb(105, 95, 220);
+  border-radius: 10px;
+  background-color: #313131;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px
+}
+
+.ghost-2 p {
+  font-size: 18px;
+}
+
+.ghost-3 {
+  border: 1px solid rgb(105, 95, 220);
+  border-radius: 10px;
+  background-color: #313131;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px
+}
+
+.ghost-3 p {
+  font-size: 18px;
 }
