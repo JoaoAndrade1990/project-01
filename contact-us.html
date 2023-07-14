@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GhostBook</title>
-    <link rel="stylesheet" href="haunted-houses.css">
+    <link rel="stylesheet" href="contact-us.css">
 </head>
 <body>
     
@@ -18,22 +18,26 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <form>
         <div class="input-group">
-            <input type="text" id="name" required>
             <label for="name">Enter your Name</label>
+            <input type="text" id="name" placeholder="Ghost Hunter" required>
         </div>
         <div class="input-group">
-            <input type="email" id="email" required>
             <label for="email">Enter your e-mail</label>
+            <input type="email" id="email" placeholder="email@email.com" required>
         </div>
         <div class="input-group">
-            <textarea id="message" rows="8"></textarea>
             <label for="message">Write your message</label>
+            <textarea id="message" rows="8"></textarea>
         </div>
-        <button type="submit">SUBMIT</button>
+        <div class="button-group">
+            <button type="submit">SUBMIT</button>
+        </div>
     </form>
+
+</main>
       
 </body>
 </html>
